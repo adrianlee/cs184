@@ -28,7 +28,7 @@ var accounting = require('accounting');
 var CSVFILE_DEFAULT = "market-research.csv";
 var SYMBOLS_DEFAULT = ["GOOG", "FB", "AAPL", "YHOO", "MSFT", "LNKD", "CRM"];
 var COLUMNS_DEFAULT = 'snj1pr'; // http://greenido.wordpress.com/2009/12/22/yahoo-finance-hidden-api
-var HEADERS_DEFAULT = ["Symbol", "Name", "Market Cap", "Previous Close Price", 
+var HEADERS_DEFAULT = ["Symbol", "Name", "Market Cap", "Previous Close Price",
                        "P/E Ratio", "Shares", "EPS", "Earnings"];
 
 var financeurl = function(symbols, columns) {
